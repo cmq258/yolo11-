@@ -7,7 +7,7 @@ from ultralytics import YOLO
 # 预测框粗细和颜色修改问题可看<新手推荐学习视频.md>下方的<YOLOV8源码常见疑问解答小课堂>第六点
 
 if __name__ == '__main__':
-    model = YOLO('runs/train/1/yolo11-DBBNCSPELAN/weights/best.pt') # select your model.pt path
+    model = YOLO('runs/train/1/yolo11-AIFI/weights/best.pt') # select your model.pt path
     model.predict(source='ce',
                   imgsz=640,
                   project='runs/detect/1',
